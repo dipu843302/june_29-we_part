@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="#FA332D2D"
+    android:layout_height="match_parent">
+    android:orientation="vertical">
+
+
+    <TextView
+        android:layout_width="188dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="114dp"
+        android:layout_marginTop="49dp"
+        android:text="Hello AND 03"
+        android:textSize="78px"
+        android:textColor="@color/white"
+
+        />
+
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="130px"
+        android:layout_marginTop="120dp"
+        android:layout_marginRight="51px"
+        android:text="Welcome to layouts"
+        android:textSize="78px"
+        android:textColor="@color/white"
+
+
+        />
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="370dp"
+        android:layout_marginRight="51px"
+        android:text="Name: Dipu Kumar"
+        android:textSize="78px"
+        android:textColor="#B50C08"
+        />
+    <TextView
+        android:layout_width="311dp"
+        android:layout_height="53dp"
+        android:layout_gravity="center"
+        android:layout_marginLeft="15px"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="51px"
+        android:text="Age :22"
+        android:textSize="78px"
+        android:textColor="#B50C08"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="160px"
+        android:layout_marginTop="670dp"
+        android:text="Next"
+        android:background="@color/design_default_color_background"
+        android:textSize="20dp"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="70px"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="630dp"
+        android:background="#D8B0B0"
+        android:layout_marginRight="70dp"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="120px"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="570dp"
+        android:layout_marginRight="50dp"
+        android:textSize="20dp"></Button>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="150px"
+        android:layout_marginLeft="110dp"
+        android:layout_marginTop="500dp"
+        android:layout_marginRight="30dp"
+        android:textSize="20dp"></Button>
+
+    <ImageView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="450px"
+        android:layout_marginTop="175dp"
+        android:src="@drawable/circle"
+
+        ></ImageView>
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="650px"
+        android:layout_marginTop="375dp"
+        android:src="@drawable/icon"
+
+        ></ImageView>
+
+
+
+</RelativeLayout>

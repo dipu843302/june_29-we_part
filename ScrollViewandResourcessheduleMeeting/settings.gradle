@@ -1,0 +1,2 @@
+rootProject.name = "Scroll View and Resources shedule Meeting"
+include ':app'

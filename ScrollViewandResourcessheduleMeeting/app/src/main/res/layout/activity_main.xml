@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        >
+
+        <TextView
+            android:layout_width="241dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300px"
+            android:layout_marginTop="53dp"
+            android:layout_marginRight="100px"
+            android:text="Shedule Meeting"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="93dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="103dp"
+            android:text="Name"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="355dp"
+            android:layout_marginTop="140dp"
+            android:hint="@string/nrupul"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="66dp"
+            android:layout_marginTop="185dp"
+            android:hint="@string/tue_22_december_2020" />
+
+        <EditText
+            android:layout_width="143dp"
+            android:layout_height="63dp"
+            android:layout_marginLeft="230dp"
+            android:layout_marginTop="185dp"
+            android:hint="@string/time" />
+        <TextView
+            android:layout_width="213dp"
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="303dp"
+            android:text="People to invite"
+            android:textSize="30dp" />
+
+        <EditText
+            android:layout_width="355dp"
+            android:layout_marginTop="350dp"
+            android:hint="@string/prateek"
+            android:layout_height="wrap_content" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="410dp"
+            android:src=""
+            />
+    </RelativeLayout>
+
+
+
+
+</ScrollView>

@@ -1,0 +1,2 @@
+rootProject.name = "July_1_scrollbar"
+include ':app'
